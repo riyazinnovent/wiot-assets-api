@@ -1,0 +1,75 @@
+{
+  "status": true,
+  "data": [
+    {
+      "path": "/",
+      "name": "HOME",
+      "query": {},
+      "icon": "icon-w_home",
+      "text": "menu.HOME"
+    },
+    {
+      "path": "/dashboard",
+      "name": "TRIP_DISPATCH",
+      "query": {},
+      "icon": "icon-w_dashboard",
+      "text": "menu.TRIP_DISPATCH"
+    },    
+    {
+      "path": "/guardian",
+      "name": "GUARDIAN",
+      "query": {},
+      "icon": "icon-w_guardian",
+      "text": "menu.GUARDIAN"
+    },    
+    {
+      "icon": "icon-w_report",
+      "name": "TRANSPORT",
+      "text": "menu.TRANSPORT",
+      "children": [
+        {
+          "icon": "icon-w_home",
+          "name": "BUS",
+          "path": "/bus",
+          "text": "menu.BUS"
+        },
+        {
+          "icon": "icon-w_home",
+          "name": "DRIVER",
+          "path": "/driver",
+          "text": "menu.DRIVER"
+        },
+        {
+          "icon": "icon-w_home",
+          "name": "SUPERVISOR",
+          "path": "/supervisor",
+          "text": "menu.SUPERVISOR"
+        }
+      ]
+    },
+    {
+      "icon": "icon-w_incident",
+      "name": "MANAGE_BRANCHES",
+      "path": "",
+      "text": "menu.MANAGE_BRANCHES"
+    },
+    {
+      "icon": "icon-w_notification",
+      "name": "MANAGE_STATIONS",
+      "path": "",
+      "text": "menu.MANAGE_STATIONS"
+    },
+    {
+      "icon": "icon-w_moe",
+      "name": "WIOT_SUPPORT",
+      "path": "",
+      "text": "menu.WIOT_SUPPORT"
+    },
+    {
+      "icon": "icon-w_moe",
+      "name": "AUTO_EMAIL",
+      "path": "",
+      "text": "menu.AUTO_EMAIL"
+    }
+  ]
+}

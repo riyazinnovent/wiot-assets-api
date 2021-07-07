@@ -1,0 +1,55 @@
+{
+  "status": true,
+  "data": {
+    "HOME": { "name": "HOME", "meta": { "title": "menu.HOME" }, "path": "/" },
+    "Dashboard": { "name": "Dashboard", "meta": { "title": "DASHBOARD" }, "path": "/dashboard" },
+    
+    "About": { "name": "About", "meta": { "title": "ABOUT" }, "path": "/about" },
+    "USER": {
+      "meta": { "title": "USER" },
+      "path": "/user",
+      "name": "User",
+      "children": {
+        "UserProfile": { "name": "UserProfile", "meta": { "title": "USER_PROFILE" }, "path": "/profile" },
+        "UserSettings": { "name": "UserSettings", "meta": { "title": "USER_SETTINGS" }, "path": "/settings" },
+        "UserProfileEdit": { "name": "UserProfileEdit", "meta": { "title": "ACCOUNT_SETTINGS" }, "path": "/settings?tab=profile" }
+      }
+    },
+    "GUARDIAN": {
+      "meta": { "title": "GUARDIAN" },
+      "path": "/guardian",
+      "children": {
+        "LIST": { "name": "GuardianList", "meta": { "title": "LIST" }, "path": "/guardian" },
+        "MANAGE": { "name": "GuardianManage", "meta": { "title": "MANAGE" }, "path": "/guardian/:id" },
+        "PROFILE": { "name": "GuardianProfile", "meta": { "title": "PROFILE" }, "path": "/guardian/profile/:id" }
+      }
+    },
+    "SUPERVISOR": {
+      "meta": { "title": "SUPERVISOR" },
+      "path": "/supervisor",
+      "children": {
+        "LIST": { "name": "SupervisorList", "meta": { "title": "LIST" }, "path": "/guardian" },
+        "MANAGE": { "name": "SupervisorManage", "meta": { "title": "MANAGE" }, "path": "/guardian/:id" },
+        "PROFILE": { "name": "SupervisorProfile", "meta": { "title": "PROFILE" }, "path": "/guardian/profile/:id" }
+      }
+    },
+    "BUS": {
+      "meta": { "title": "BUS" },
+      "path": "/bus",
+      "children": {
+        "LIST": { "name": "BusList", "meta": { "title": "LIST" }, "path": "/bus" },
+        "MANAGE": { "name": "BusManage", "meta": { "title": "MANAGE" }, "path": "/bus/:id" },
+        "PROFILE": { "name": "BusProfile", "meta": { "title": "PROFILE" }, "path": "/bus/profile/:id" }
+      }
+    },
+    "DRIVER": {
+      "meta": { "title": "DRIVER" },
+      "path": "/driver",
+      "children": {
+        "LIST": { "name": "BusList", "meta": { "title": "LIST" }, "path": "/driver" },
+        "MANAGE": { "name": "BusManage", "meta": { "title": "MANAGE" }, "path": "/driver/:id" },
+        "PROFILE": { "name": "BusProfile", "meta": { "title": "PROFILE" }, "path": "/driver/profile/:id" }
+      }
+    }
+  }
+}
